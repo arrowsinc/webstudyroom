@@ -8,7 +8,6 @@ Bundler.require(:default, Rails.env)
 
 module Webstdyroom
   class Application < Rails::Application
-    config.assets.precompile += %w(rails_admin/rails_admin.css rails_admin/rails_admin.js)
     config.time_zone = 'Tokyo'
     config.i18n.default_locale = :ja
     config.i18n.available_locales = :ja
