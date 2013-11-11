@@ -1,6 +1,6 @@
 h1 Home#index
 p Find me in app/views/home/index.html.slim
-= form_for :docomo_api, url:  search_docomo_api_index_path, remote: true do |f|
-  = f.text_field :query, placeholder: "わからない事ある？"
-  = f.submit "について訪ねる"
+= form_tag search_docomo_api_index_path, remote: true do
+  = text_field_tag :query, params[:query], placeholder: "わからない事ある？"
+  = submit_tag "について訪ねる"
 .docomo-search-result
