@@ -4,7 +4,7 @@ gem 'rails', '4.0.0'
 
 # Use SCSS for stylesheets
 gem "font-awesome-rails"
-gem 'devise', '3.0.3'
+gem 'devise'
 gem 'rails-i18n'
 gem 'rails_admin'
 gem 'jpmobile'
