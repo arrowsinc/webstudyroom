@@ -1,5 +1,4 @@
 Webstdyroom::Application.configure do
-  config.assets.precompile += %w( *.css *.js )
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
