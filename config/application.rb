@@ -18,6 +18,6 @@ module Webstdyroom
     config.assets.enabled = true
     config.assets.version = '1.0'
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-    config.assets.precompile += %w( *.css *.js )
+    config.assets.precompile += %w( *.css *.js *js.erb )
   end
 end
