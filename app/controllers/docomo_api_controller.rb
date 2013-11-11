@@ -1,0 +1,2 @@
+class DocomoApiController < ApplicationController
+end
