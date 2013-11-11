@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
 
 gem 'rails', '4.0.0'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
-
 gem "font-awesome-rails"
 gem 'devise', '3.0.3'
 gem 'rails-i18n'
@@ -20,8 +17,6 @@ gem 'fastercsv'
 gem "breadcrumbs_on_rails"
 gem 'haml-rails'
 gem 'slim-rails'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -37,6 +32,16 @@ group :development do
   gem 'pry'
   gem 'pry-doc'
   gem 'pry-rails'
+end
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
+
+  gem 'uglifier', '>= 1.3.0'
 end
 
 group :production do
