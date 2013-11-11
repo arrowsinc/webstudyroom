@@ -1,6 +1,6 @@
 h1 Home#index
 p Find me in app/views/home/index.html.slim
-  = form_for :docomo_api, search_docomo_api_path do |f|
-    = f.text_field :query, placeholder: "聞きたい事は？"
-    = f.submit, "について訪ねる"
+= form_for :docomo_api, search_docomo_api_path do |f|
+  = f.text_field :query, placeholder: "聞きたい事は？"
+  = f.submit, "について訪ねる"
 
