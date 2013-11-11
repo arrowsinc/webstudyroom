@@ -19,6 +19,6 @@ module Webstdyroom
     config.assets.compile = true
     config.assets.initialize_on_precompile = false
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-    config.assets.precompile += %w( *.css *.js *js.erb *.coffee)
+    config.assets.precompile += %w( *.css *.js )
   end
 end
