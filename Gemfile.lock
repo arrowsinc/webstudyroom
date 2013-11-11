@@ -235,7 +235,7 @@ PLATFORMS
 
 DEPENDENCIES
   breadcrumbs_on_rails
-  coffee-rails (~> 4.0.0)
+  coffee-rails (~> 4.0.1)
   devise (= 3.0.3)
   erb2haml
   fastercsv
@@ -258,7 +258,7 @@ DEPENDENCIES
   rails (= 4.0.0)
   rails-i18n
   rails_admin
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.1)
   sdoc
   slim-rails
   sqlite3
