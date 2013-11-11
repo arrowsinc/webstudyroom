@@ -1,1 +1,1 @@
-$(".docomo-search-result").html("<%= @result["message"]["textForDisplay"] %>")
+$(".docomo-search-result").html("<%= j render("show", response: @response) %>")

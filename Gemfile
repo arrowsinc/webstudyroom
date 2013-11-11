@@ -1,52 +1,31 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.0.1'
+
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem "font-awesome-rails"
-gem 'devise', '3.0.3'
-gem 'rails-i18n'
-gem 'jpmobile'
-gem 'newrelic_rpm'
-gem "oauth"
-gem "omniauth"
-gem "omniauth-facebook"
-gem 'koala'
-gem 'fastercsv'
-gem "breadcrumbs_on_rails"
-gem 'haml-rails'
-gem 'slim-rails'
+gem 'sass-rails', '~> 4.0.0'
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+# Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
-
-group :development do
-  gem 'sqlite3'
-  gem 'sqlite3-ruby', :require => 'sqlite3'
-  gem 'erb2haml'
-  gem 'haml2slim'
-  gem 'html2slim'
-  gem 'pry'
-  gem 'pry-doc'
-  gem 'pry-rails'
-end
-
-group :assets do
-  gem 'sass-rails',   '~> 4.0.1'
-  gem 'coffee-rails', '~> 4.0.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-  gem 'uglifier', '>= 1.3.0'
-end
-
-group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
-  gem 'pg'
-end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -54,7 +33,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+# gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
