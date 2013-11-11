@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 1.2'
 
 
 group :development do
+  gem 'sqlite3'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'erb2haml'
   gem 'haml2slim'
   gem 'html2slim'
